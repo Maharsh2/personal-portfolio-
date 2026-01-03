@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="description" content="Maharsh – Frontend Developer portfolio built with HTML, CSS, and JavaScript." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maharsh | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">Maharsh</h1>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <h2>Frontend Developer</h2>
+      <p>
+        I build responsive and user-focused web interfaces using HTML, CSS, and JavaScript.
+        As an entry-level developer, I focus on clean code, solid fundamentals, and real projects.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="Maharsh.resume.pdf" target="_blank" class="btn secondary">Resume</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h3>Skills</h3>
+      <ul class="pill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Tailwind (Basic)</li>
+        <li>Figma (Basic)</li>
+      </ul>
+    </section>
+
+    <section class="learning">
+      <h3>Learning Roadmap</h3>
+      <ul class="pill-list">
+        <li>React.js</li>
+        <li>GSAP</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <h3>Projects</h3>
+
+      <article class="project-card">
+        <h4>Smart Digital Clock</h4>
+        <p class="project-desc">Real-time responsive digital clock.</p>
+        <p><strong>Problem:</strong> Most basic clock projects feel static and don’t scale well.</p>
+        <p><strong>Solution:</strong> Built a real-time clock using efficient DOM updates
+          and responsive CSS for better readability on all devices.</p>
+        <p class="tech">HTML: 20% · CSS: 42.5% · JavaScript: 41.4%</p>
+
+        <a class="project-link" href="https://github.com/Maharsh2/my-digital-clock" target="_blank">GitHub</a>
+
+        <div class="project-img">
+          <img src="./assets/images/Digital Clock-img1.png" alt="Clock preview" />
+          <img src="./assets/images/Digital Clock-img2.png" alt="Clock preview" />
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h4>Classic Snake Game</h4>
+        <p class="project-desc">A browser-based Snake game built with JavaScript.</p>
+        <p><strong>Problem:</strong> Handling movement and collisions often leads to messy logic.</p>
+        <p><strong>Solution:</strong> Implemented a clean game loop with predictable
+          state updates and keyboard controls.</p>
+        <p class="tech">HTML: 14.4% · CSS: 31% · JavaScript: 54.6</p>
+
+        <a class="project-link" href="https://github.com/Maharsh2/Snake-game" target="_blank">GitHub</a>
+
+        <div class="project-img">
+          <img src="./assets/images/snake game-img2.png" alt="Snake preview" />
+          <img src="./assets/images/snake game-img-3.png" alt="Snake preview" />
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h4>Kanban Task Board</h4>
+        <p class="project-desc">A simple Kanban-style task manager for organizing work visually.</p>
+        <p><strong>Problem:</strong> Task apps become hard to manage as tasks increase.</p>
+        <p><strong>Solution:</strong> Built a Kanban board with structured DOM updates
+          and clear event handling.</p>
+        <p class="tech">HTML: 20% · CSS: 44% · JavaScript: 35.7</p>
+
+        <a class="project-link" href="https://github.com/Maharsh2/kanban-js" target="_blank">GitHub</a>
+
+        <div class="project-img">
+          <img src="./assets/images/My Kanban-img1.png" alt="Kanban preview" />
+          <img src="./assets/images/My Kanban-img-2.png" alt="Kanban preview" />
+        </div>
+      </article>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <h3>About Me</h3>
+      <p>
+         I’m a frontend developer focused on building clean, responsive, and user-friendly interfaces using HTML, CSS,
+            and JavaScript. As a fresher, I strengthen my fundamentals by building real-world projects with attention to
+            performance, usability, and maintainable code. I’m actively seeking an entry-level frontend role where I can
+            contribute, learn fast, and grow into a strong UI engineer.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:maharsh004@gmail.com">maharsh004@gmail.com</a></p>
+      <p>
+        <a href="https://github.com/Maharsh2" target="_blank">GitHub</a> ·
+        <a href="https://linkedin.com/in/maharsh-solanki-580ab1338" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+    <script src="index.js"></script>
+</body>
+</html>
